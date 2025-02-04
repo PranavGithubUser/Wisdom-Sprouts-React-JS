@@ -1,0 +1,7 @@
+#create project using vite+react:
+        npm create vite@latest my_project 
+        <></> ==>fragements
+        rafce
+        
+#Install modules :
+        npm install react-router-dom
