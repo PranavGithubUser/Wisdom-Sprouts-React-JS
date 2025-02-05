@@ -21,4 +21,4 @@ const ProductDetail = ({products}) => {
   )
 }
 
-export default ProductDetail;
+export default ProductDetail

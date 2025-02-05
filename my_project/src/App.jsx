@@ -19,10 +19,8 @@ const products = [{ id: 1, name: 'PS-5', discription: "Lorem, ipsum dolor sit am
 
 function App() {
   return (
-    <>
-
-      <Router>
-        <Navbar />
+    <><Router>
+        <Navbar/>
         <Routes>
           <Route path='/counter' element={<Counter />}></Route>
           <Route path='/login' element={<LoginForm />}></Route>
