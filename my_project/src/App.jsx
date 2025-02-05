@@ -19,12 +19,13 @@ const products = [{ id: 1, name: 'PS-5', discription: "Lorem, ipsum dolor sit am
 
 function App() {
   return (
-    <><Router>
+    <>
+    <Router>
         <Navbar/>
         <Routes>
           <Route path='/counter' element={<Counter />}></Route>
           <Route path='/login' element={<LoginForm />}></Route>
-          <Route path='greet' element={<Greeting name1={{ n1: 'AKASH', n2: 'Gat' }} />}></Route>
+          <Route path='greet' element={<Greeting name1={{ n1: 'Pranav', n2: 'Kavade' }} />}></Route>
           <Route path='/products' element={<ProductsList products={products} />} ></Route>
           <Route path='/products/:id' element={<ProductDetail products={products} />} ></Route>
         </Routes>
