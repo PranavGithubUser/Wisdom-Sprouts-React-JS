@@ -28,6 +28,7 @@ function App() {
           <Route path='greet' element={<Greeting name1={{ n1: 'Pranav', n2: 'Kavade' }} />}></Route>
           <Route path='/products' element={<ProductsList products={products} />} ></Route>
           <Route path='/products/:id' element={<ProductDetail products={products} />} ></Route>
+          <Route path='/CreateProduct' element={<CreateProduct/>}></Route>
         </Routes>
       </Router>
       {/* <CreateProduct />
