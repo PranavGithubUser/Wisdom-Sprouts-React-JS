@@ -3,7 +3,6 @@ import Cards from './Cards';
 
 const Tour = ({ data, Remove }) => {
     console.log(data);
-
     return (
         <>
             <h1 className='text-4xl font-extrabold text-center m-8'>Plan for TOUR😎</h1>
